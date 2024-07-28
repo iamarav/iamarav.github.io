@@ -4,7 +4,7 @@ window._CommonConstants = {
 
 function _registerGtag() {
     // Create the async script element for gtag.js
-    const script = document.createElement('script');
+    var script = document.createElement('script');
     script.async = true;
     script.src = `https://www.googletagmanager.com/gtag/js?id=${_CommonConstants.GTAG_ID}`;
     document.head.appendChild(script);
