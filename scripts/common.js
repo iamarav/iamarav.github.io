@@ -15,7 +15,7 @@ function _registerGtag() {
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', ${_CommonConstants.GTAG_ID});
+    gtag('config', '${_CommonConstants.GTAG_ID}');
     `;
     document.head.appendChild(script);
 }
